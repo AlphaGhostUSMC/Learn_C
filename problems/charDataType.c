@@ -16,7 +16,6 @@ int main()
   printf("Enter a character: ");
   scanf("%c", &ch);
   printf("%c is a %s character\n", ch, isalpha(ch) ? "alphabetical" : "numeric");
-  printf("%c is a %s character\n", ch, isdigit(ch) ? "numeric" : "alphabetical");
   printf("%c is a %s character\n", ch, isalnum(ch) ? "alphabetical or numeric" : "special");
   printf("%c is a %s character\n", ch, iscntrl(ch) ? "control" : "not control");
   printf("%c is a %s character\n", ch, isgraph(ch) ? "printable" : "not printable");
@@ -24,7 +23,6 @@ int main()
   printf("%c is a %s character\n", ch, isprint(ch) ? "printable" : "not printable");
   printf("%c is a %s character\n", ch, ispunct(ch) ? "punctuation" : "not punctuation");
   printf("%c is a %s character\n", ch, isspace(ch) ? "space" : "not space");
-  printf("%c is a %s character\n", ch, isupper(ch) ? "uppercase" : "lowercase");
   printf("%c is a %s character\n", ch, isxdigit(ch) ? "hexadecimal" : "not hexadecimal");
   return 0;
 }
