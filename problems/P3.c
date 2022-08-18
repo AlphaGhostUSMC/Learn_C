@@ -1,15 +1,13 @@
-// Program 10
+
 
 #include <stdio.h>
+#include <math.h>
 
 int main()
 {
-  int a, b, c, d;
-  printf("Enter two numbers: ");
-  scanf("%d %d", &a, &b);
-  c = a + b;
-  d = a - b;
-  printf("%d", c);
-  printf("\n%d", d);
+  int n;
+  printf("Enter a number: ");
+  scanf("%d", &n);
+  printf("Factorial of %d is %d\n", n factorial(n));
   return 0;
 }
